@@ -7,6 +7,8 @@ import java.util.Map;
 // I submitted this solution: https://leetcode.com/problems/two-sum/submissions/1607238093/
 // https://leetcode.com/problems/two-sum/solutions/6652249/simple-java-solution-by-brunosantanati-qsm4/
 
+// algorithm with O(n) time complexity
+
 public class Solution2 {
 
     public int[] twoSum(int[] nums, int target) {

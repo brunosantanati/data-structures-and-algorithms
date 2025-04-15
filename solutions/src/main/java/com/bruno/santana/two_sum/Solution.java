@@ -2,7 +2,7 @@ package com.bruno.santana.two_sum;
 
 // https://leetcode.com/problems/two-sum/
 
-// algorithm with O(n2) time complexity
+// algorithm with O(n^2) time complexity
 
 class Solution {
 
