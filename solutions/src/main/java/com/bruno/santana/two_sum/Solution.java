@@ -23,5 +23,5 @@ class Solution {
         }
         return result;
     }
-    
+
 }
