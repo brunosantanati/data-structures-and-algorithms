@@ -1,11 +1,12 @@
 package com.bruno.santana.contains_duplicate;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SolutionTest {
 
@@ -15,7 +16,7 @@ public class SolutionTest {
         int[] nums = {1, 2, 3, 1};
         boolean result = solution.containsDuplicate(nums);
         boolean expected = true;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
     @Test
@@ -24,7 +25,7 @@ public class SolutionTest {
         int[] nums = {1, 2, 3, 4};
         boolean result = solution.containsDuplicate(nums);
         boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
     @Test
@@ -33,7 +34,7 @@ public class SolutionTest {
         int[] nums = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
         boolean result = solution.containsDuplicate(nums);
         boolean expected = true;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
     @Test
@@ -42,7 +43,7 @@ public class SolutionTest {
         int[] nums = {7, 2, 1, 1};
         boolean result = solution.containsDuplicate(nums);
         boolean expected = true;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
     @Test
@@ -51,7 +52,7 @@ public class SolutionTest {
         int[] nums = {0, 1, 2, 3, 4};
         boolean result = solution.containsDuplicate(nums);
         boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
     // This scenario is failing in Leetcode: Time Limit Exceeded
@@ -67,7 +68,7 @@ public class SolutionTest {
         }
         boolean result = solution.containsDuplicate(nums);
         boolean expected = false;
-        Assertions.assertEquals(expected, result);
+        assertEquals(expected, result);
     }
 
 }
