@@ -1,7 +1,9 @@
+# Kadane’s Algorithm
 from typing import List
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
+        #import pdb; pdb.set_trace() #Enable this line to debug
         # Maximum sum so far
         max_sum = nums[0]
 
@@ -25,6 +27,8 @@ class Solution:
 # Example usage
 solution = Solution()
 nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+#nums = [5,-10,200,-1]
+#nums = [5,-5,200,-1]
 result = solution.maxSubArray(nums)
 print("Maximum subarray sum:", result)
 
