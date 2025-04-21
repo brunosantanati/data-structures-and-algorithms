@@ -15,8 +15,3 @@ def maxProfit(prices: List[int]) -> int:
 
     return max_profit
 
-# Example usage
-prices = [7, 1, 5, 3, 6, 4]
-result = maxProfit(prices)
-print("Maximum Profit:", result)
-
