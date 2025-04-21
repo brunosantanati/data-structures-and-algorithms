@@ -24,11 +24,3 @@ class Solution:
         # max_sum now holds the maximum of all subarrays
         return max_sum
 
-# Example usage
-solution = Solution()
-nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
-#nums = [5,-10,200,-1]
-#nums = [5,-5,200,-1]
-result = solution.maxSubArray(nums)
-print("Maximum subarray sum:", result)
-
