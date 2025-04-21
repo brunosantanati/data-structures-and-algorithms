@@ -15,9 +15,3 @@ class Solution:
         # If no duplicates are found, return False
         return False
 
-# Example usage
-solution = Solution()
-nums = [1, 2, 3, 4, 1]
-result = solution.containsDuplicate(nums)
-print("Contains duplicate:", result)
-
