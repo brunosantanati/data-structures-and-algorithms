@@ -27,7 +27,7 @@ public class SolutionTest {
     @Test
     public void testScenario3() {
         Solution solution = new Solution();
-        int[] nums = {5,4,-1,7,8};
+        int[] nums = {5, 4, -1, 7, 8};
         int expected = 23;
         int result = solution.maxSubArray(nums);
         assertEquals(expected, result);
