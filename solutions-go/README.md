@@ -11,6 +11,30 @@ A simple guide to writing and running unit tests in **Go (Golang)**.
 
 ---
 
+## 📦 How to Create `go.mod`
+
+Before writing or running tests, initialize a Go module in your project directory:
+
+```bash
+go mod init example.com/mymodule
+```
+
+> Replace `example.com/mymodule` with your actual module path or any name you prefer.
+
+This creates a `go.mod` file that declares your module and tracks dependencies.
+
+Example `go.mod` file:
+
+```
+module example.com/mymodule
+
+go 1.21
+```
+
+> You only need to do this **once per project** (in the root directory).
+
+---
+
 ## ✅ How to Write Tests
 
 - Test files should be named with `_test.go` suffix.
