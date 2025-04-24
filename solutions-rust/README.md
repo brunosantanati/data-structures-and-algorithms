@@ -1,4 +1,4 @@
-# 🦀 Rust Unit Testing Guide
+# 🦀 Rust Basic Guide
 
 A simple guide to writing, running, and organizing unit tests in **Rust**.
 

@@ -1,4 +1,4 @@
-# 🧪 Go Unit Testing Guide
+# 🧪 Go Basic Guide
 
 A simple guide to writing and running unit tests in **Go (Golang)**.
 
