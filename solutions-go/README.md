@@ -35,6 +35,13 @@ go 1.21
 
 ---
 
+## 🚀 How to Run a GO program  
+
+
+```bash
+go run two-sum.go
+```
+
 ## ✅ How to Write Tests
 
 - Test files should be named with `_test.go` suffix.

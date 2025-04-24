@@ -10,4 +10,3 @@ class Solution: # The code defines a class named Solution
                 return [num_indices[complement], i]
             num_indices[num] = i
         return []
-

@@ -5,6 +5,12 @@
 - Python 3.x
 - (Optional) `pytest` for easier test running
 
+## ✅ How to Run a Python program
+
+```bash
+python3 two_sum.py
+```
+
 ## ✅ How to Run Tests
 
 ### Option 1: Run directly with `python3`
