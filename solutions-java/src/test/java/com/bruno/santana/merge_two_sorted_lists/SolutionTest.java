@@ -10,15 +10,17 @@ public class SolutionTest {
 
     @Test
     void testScenario1() {
-        ListNode node3L1 = new ListNode(4);
+        /*ListNode node3L1 = new ListNode(4);
         ListNode node2L1 = new ListNode(2, node3L1);
-        ListNode node1L1 = new ListNode(1, node2L1);
+        ListNode node1L1 = new ListNode(1, node2L1);*/
+        ListNode node1L1 = createList(1, 2, 4); //this line does the same thing as the commented out lines
 
         node1L1.printList();
 
-        ListNode node3L2 = new ListNode(4);
+        /*ListNode node3L2 = new ListNode(4);
         ListNode node2L2 = new ListNode(3, node3L2);
-        ListNode node1L2 = new ListNode(1, node2L2);
+        ListNode node1L2 = new ListNode(1, node2L2);*/
+        ListNode node1L2 = createList(1, 3, 4); //this line does the same thing as the commented out lines
 
         node1L2.printList();
 
@@ -64,5 +66,16 @@ public class SolutionTest {
         assertEquals(0, result.val);
         assertNull(result.next);
     }
+
+    private ListNode createList(int... values) {
+        ListNode dummy = new ListNode(0);
+        ListNode current = dummy;
+        for (int val : values) {
+            current.next = new ListNode(val);
+            current = current.next;
+        }
+        return dummy.next;
+    }
+
 
 }
