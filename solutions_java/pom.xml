@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.bruno.santana</groupId>
-  <artifactId>solutions-java</artifactId>
+  <artifactId>solutions_java</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -29,4 +29,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>24</source>
+          <target>24</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

@@ -10,7 +10,7 @@ Return the head of the merged linked list.
 
 ## 📘 Example 1:
 
-![Example 1](https://github.com/brunosantanati/data-structures-and-algorithms/blob/main/solutions-java/img/merge_two_sorted_lists.jpg)
+![Example 1](https://github.com/brunosantanati/data-structures-and-algorithms/blob/main/solutions_java/img/merge_two_sorted_lists.jpg)
 
 **Input:**  
 `list1 = [1,2,4]`, `list2 = [1,3,4]`
