@@ -39,7 +39,7 @@ go 1.21
 
 
 ```bash
-go run two-sum.go
+go run two_sum.go
 ```
 
 ## ✅ How to Write Tests
