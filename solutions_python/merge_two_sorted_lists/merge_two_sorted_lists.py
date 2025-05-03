@@ -1,3 +1,8 @@
+from typing import Optional
+
+# https://leetcode.com/problems/merge-two-sorted-lists/description/
+# My solution: https://leetcode.com/problems/merge-two-sorted-lists/submissions/1624116132/
+
 # Definition for singly-linked list.
 class ListNode(object):
     def __init__(self, val=0, next=None):
@@ -11,8 +16,8 @@ class ListNode(object):
             print(current.val, end=" -> " if current.next else "\n")
             current = current.next
 
-class Solution(object):
-    def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy: ListNode = ListNode(-1)
         current: ListNode = dummy
 

@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// https://leetcode.com/problems/merge-two-sorted-lists/description/
+// My solution: https://leetcode.com/problems/merge-two-sorted-lists/submissions/1624112514/
+
 // Definition for singly-linked list.
 type ListNode struct {
 	Val  int
