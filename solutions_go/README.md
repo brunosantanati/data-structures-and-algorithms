@@ -42,6 +42,16 @@ go 1.21
 go run two_sum.go
 ```
 
+---
+
+## 🛠️ How to Format Code
+
+```bash
+gofmt -w yourfile.go
+```
+
+---
+
 ## ✅ How to Write Tests
 
 - Test files should be named with `_test.go` suffix.
@@ -54,14 +64,6 @@ algorithm-folder/
 ├── main.go
 ├── main_test.go
 └── go.mod
-```
-
----
-
-## ✅ How to Format Code
-
-```bash
-gofmt -w yourfile.go
 ```
 
 ---
