@@ -25,4 +25,3 @@ func main() {
 	result := twoSum(nums, target)
 	fmt.Println(result) // Output: [0 1]
 }
-

@@ -58,6 +58,14 @@ algorithm-folder/
 
 ---
 
+## ✅ How to Format Code
+
+```bash
+gofmt -w yourfile.go
+```
+
+---
+
 ## 🚀 How to Run Tests
 
 ### 📌 Option 1: Run tests in the current package

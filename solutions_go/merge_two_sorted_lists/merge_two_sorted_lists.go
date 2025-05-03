@@ -4,8 +4,8 @@ import "fmt"
 
 // Definition for singly-linked list.
 type ListNode struct {
-	Val int
-  Next *ListNode
+	Val  int
+	Next *ListNode
 }
 
 func (l *ListNode) PrintList() {
@@ -18,9 +18,9 @@ func (l *ListNode) PrintList() {
 	}
 	fmt.Print()
 }
- 
+
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
-  dummy := &ListNode{}
+	dummy := &ListNode{}
 	current := dummy
 
 	for list1 != nil && list2 != nil {
@@ -35,7 +35,7 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		current = current.Next
 	}
 
-	if (list1 != nil){
+	if list1 != nil {
 		current.Next = list1
 	} else {
 		current.Next = list2

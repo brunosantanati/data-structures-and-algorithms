@@ -24,4 +24,3 @@ func TestTwoSum(t *testing.T) {
 		}
 	}
 }
-
