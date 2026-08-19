@@ -18,4 +18,10 @@ public class SolutionTest {
         String result = solution.largestPalindromic("00009");
         assertEquals("9", result);
     }
+
+    @Test
+    void testScenario3() {
+        String result = solution.largestPalindromic("00000");
+        assertEquals("0", result);
+    }
 }
