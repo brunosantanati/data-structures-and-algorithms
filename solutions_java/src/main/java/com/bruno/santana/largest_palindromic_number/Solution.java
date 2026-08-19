@@ -1,5 +1,8 @@
 package com.bruno.santana.largest_palindromic_number;
 
+// https://leetcode.com/problems/largest-palindromic-number/description/
+// My Solution: https://leetcode.com/problems/largest-palindromic-number/submissions/2112067573/
+
 public class Solution {
 
     public String largestPalindromic(String num) {

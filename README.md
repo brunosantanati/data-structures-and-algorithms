@@ -239,3 +239,6 @@ Solve: Sudoku solver, N-Queens problem, generating permutations.
 [Find Peak Element](https://leetcode.com/problems/find-peak-element/)    
 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) [[Solution]](https://instabyte.io/p/must-know-algo-for-interviews)  
 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)   
+
+## Other Links
+* [String Permutation](https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/)  
