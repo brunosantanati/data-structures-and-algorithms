@@ -27,6 +27,8 @@ python3 -m unittest discover
 ```bash
 pip install pytest
 pytest
+OR
+pytest test_my_file_name.py
 ```
 
 ## 🔍 Example Output
